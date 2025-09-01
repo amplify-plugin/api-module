@@ -19,7 +19,7 @@ class ApiServiceProvider extends ServiceProvider
     {
         // Merge configs
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/amplify/api.php',
+            __DIR__ . '/../config/api.php',
             'amplify.api'
         );
     }
