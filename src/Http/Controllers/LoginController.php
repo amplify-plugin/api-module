@@ -2,8 +2,8 @@
 
 namespace Amplify\System\Api\Http\Controllers;
 
+use Amplify\System\Backend\Models\Contact;
 use App\Http\Controllers\Controller;
-use App\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
